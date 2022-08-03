@@ -47,7 +47,7 @@ def main():
     #to start webhook
     updater.start_webhook(listen="0.0.0.0",port=os.environ.get("PORT",443),
                           url_path=TOKEN,
-                          webhook_url="https://mimic-app.herokuapp.com/"+TOKEN)
+                          webhook_url="https://sample175-app.herokuapp.com/"+TOKEN)
     updater.idle()
 
 #start application with main function
